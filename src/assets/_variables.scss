@@ -1,0 +1,41 @@
+$background-color: #f9f9f9;
+$main-color: rgba(0, 0, 0, 0.1);
+$active-color: blue;
+$visited-color: #999;
+$form-background-color: #fff;
+$border-color: #ccc;
+$modal-background-color: rgba(0, 0, 0, 0.5);
+$submit-color: #4caf50;
+$cancel-color: #f44336;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin btn {
+  color: $form-background-color;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@mixin modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $modal-background-color;
+  z-index: 1000;
+}
