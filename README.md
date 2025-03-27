@@ -35,9 +35,9 @@
 
 При выборе механизма для управления состоянием приложения между Pinia и Vuex предпочтение было отдано Pinia в силу следующих причин:
 
-    - Vuex больше не развивается (устаревший инструмент).
-    - Официально Vue рекомендует использовать Pinia вместо Vuex (Источник: [Vue Docs](https://vuejs.org/guide/scaling-up/state-management.html#pinia))
-    - Pinia лучше интегрируется с Vue 3 + TypeScript
-    - Pinia поддерживает SSR и лучше работает с Vue 3 API
+- Vuex больше не развивается (устаревший инструмент).
+- Официально Vue рекомендует использовать Pinia вместо Vuex - [Vue Docs](https://vuejs.org/guide/scaling-up/state-management.html#pinia)
+- Pinia лучше интегрируется с Vue 3 + TypeScript
+- Pinia поддерживает SSR и лучше работает с Vue 3 API
 
-В третьем примере поле "email" кастомизировано через slot.
+В третьем примере поле "email" переопределено через slot.

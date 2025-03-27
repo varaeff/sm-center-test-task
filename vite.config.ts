@@ -7,6 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/sm-center-test-task/',
   plugins: [vue(), vueJsx(), vueDevTools()],
   resolve: {
     alias: {
